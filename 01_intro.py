@@ -45,10 +45,32 @@ else:
 # Ciklus
 # Ciklusokat több elemű struktúrákon szoktunk mindig végrehajtani - például listán
 # ( array != list, python-ban nincs array! )
-list = ["tibi", "gabor", "zoli"]
+list = ["Tibi", "Gabor", "Zoli"]
 
+print("FOR ciklus")
 for name in list:
     print(name)
+
+
+print("WHILE ciklus")
+n = len(list)
+i = 0
+while i < n:
+    print(list[i])
+    i = i + 1
+
+# Vigyázat! Végtelen ciklus!
+infinity = False
+while infinity:
+    print("INFINITY!!!")
+
+# Ciklusmegszakítás:
+print("BREAK")
+for name in list:
+    if name == "Tibi":
+        print(name)
+        print("Megtaláltam Tibit!")
+        break
 
 
 # Függvény
