@@ -9,7 +9,8 @@ print(var)
 
 # https://docs.python.org/3/library/datetime.html
 # Datetime modul és használata:
-import datetime # importálni mindig a file tetején szoktunk, csak prezentációs célzattal van itt!
+import datetime  # importálni mindig a file tetején szoktunk, csak prezentációs célzattal van itt!
+
 # import this # the python zen
 print(datetime.datetime.now())
 
@@ -49,10 +50,9 @@ list = ["tibi", "gabor", "zoli"]
 for name in list:
     print(name)
 
+
 # Függvény
 # Függvény deklarálás:
-
-
 def my_function(param1, param2):
     print("my_function fgv hívás!")
     result = param1 + param2
