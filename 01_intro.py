@@ -1,0 +1,62 @@
+# Python standard library: https://docs.python.org/3/library
+
+# Változó deklarálás, értékadás
+var = "hello world"
+
+# Függvény hívás, a print függvény (beépített)
+print("hello")
+print(var)
+
+# https://docs.python.org/3/library/datetime.html
+# Datetime modul és használata:
+import datetime # importálni mindig a file tetején szoktunk, csak prezentációs célzattal van itt!
+print(datetime.datetime.now())
+
+# Értékek vizsgálata, összehasonlítása
+if 5 == 5:
+    print("equal")
+
+############
+
+if 5 != 6:
+    print("not equal")
+
+if 5 != 5:
+    print("this is not possible!!")
+else:
+    print("equal")
+
+############
+
+if 5 < 6:
+    print("5 is less than 6!")
+else:
+    print("this is not possible!")
+
+############
+
+if 5 <= 5:
+    print("5 is less or equal than 5!")
+else:
+    print("this is not possible!")
+
+# Ciklus
+# Ciklusokat több elemű struktúrákon szoktunk mindig végrehajtani - például listán
+# ( array != list, python-ban nincs array! )
+list = ["tibi", "gabor", "zoli"]
+
+for name in list:
+    print(name)
+
+# Függvény
+# Függvény deklarálás:
+
+
+def my_function(param1, param2):
+    print("my_function fgv hívás!")
+    result = param1 + param2
+    return result
+
+
+res = my_function(5, 6)
+print(res)
