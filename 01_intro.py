@@ -10,6 +10,7 @@ print(var)
 # https://docs.python.org/3/library/datetime.html
 # Datetime modul és használata:
 import datetime # importálni mindig a file tetején szoktunk, csak prezentációs célzattal van itt!
+# import this # the python zen
 print(datetime.datetime.now())
 
 # Értékek vizsgálata, összehasonlítása
