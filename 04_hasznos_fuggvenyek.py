@@ -5,5 +5,7 @@ for x in f:
     currentline = x.split(",")
     print(currentline[0])
     print(currentline[1].rstrip())
+    my_num = int(currentline[1].rstrip())
+    print(my_num)
 f.close()
 
