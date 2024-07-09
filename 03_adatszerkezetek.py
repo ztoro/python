@@ -52,7 +52,10 @@ for item in my_dicts:
     try:
         print(item["name"])
         print(item["favourite_colour"])
-        print(item["occupation"])
+        if "occupation" in item:
+            print(item["occupation"])
+        else:
+            print("This was not a keyerror!")
     except KeyError:
         print("cannot find key!")
 
