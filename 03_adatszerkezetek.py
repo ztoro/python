@@ -54,6 +54,8 @@ for item in my_dicts:
         print(item["favourite_colour"])
         if "occupation" in item:
             print(item["occupation"])
+            if item["occupation"] == "DevOps Engineer":
+                print("His occupation is DevOps engineer!")
         else:
             print("This was not a keyerror!")
     except KeyError:
