@@ -68,6 +68,9 @@ for item in my_dicts:
         print("cannot find key!")
 print(my_dicts)
 
+del my_dict["favourite_colour"] # Deleting a key/value from a dict
+print(my_dict)
+
 
 # SET
 print("######SET######")
