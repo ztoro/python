@@ -1,0 +1,3 @@
+A meglévő függvények és adatszerkezetek segítségével, funkcionális programozási paradigmával a score.csv file-ból egy python
+script segítségével mutasd meg, hogy kinek összesen hány pontja lett, és ki lett az első, második, és harmadik helyezett!
+A megoldás legyen a játékosok számától független!

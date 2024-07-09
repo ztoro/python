@@ -35,7 +35,36 @@ def my_even(my_numbers):
             even_numbers = even_numbers+1
     return even_numbers
 
+# MÁSOLÁS
+def my_even_list(my_numbers):
+
+    even_numbers = []
+    for number in my_numbers:
+        if number % 2 == 0:
+            even_numbers.append(number)
+    return even_numbers
+
+# TRY EXCEPT PÉLDA
+def my_even_sort(my_numbers):
+
+    even_numbers = []
+    for number in my_numbers:
+        try:
+            print(my_numbers[10])
+            if number % 2 == 0:
+                even_numbers.append(number)
+        except IndexError:
+            print("Ups!")
+        except KeyError:
+            print("keyerror!")
+        finally:
+            print("end!")
+    return even_numbers
+
 
 print(my_max(my_numbers))
 print(my_min(my_numbers))
 print(my_even(my_numbers))
+print(my_even_list(my_numbers))
+print(my_even_sort(my_numbers))
+print(my_numbers)
