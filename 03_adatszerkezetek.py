@@ -57,9 +57,11 @@ for item in my_dicts:
             if item["occupation"] == "DevOps Engineer":
                 print("His occupation is DevOps engineer!")
         else:
-            print("This was not a keyerror!")
+            item["occupation"] = "Senior DevOps Engineer"
+            print(item["occupation"])
     except KeyError:
         print("cannot find key!")
+print(my_dicts)
 
 
 # SET
