@@ -47,7 +47,12 @@ my_dict = {"name": "Tibi", "favourite_colour": "blue"}
 # print(my_dict["name"])
 # print(my_dict["favourite_colour"])
 
-my_dicts = [{"name": "Tibi", "favourite_colour": "blue", "occupation": "DevOps Engineer"}, {"name": "Gabor", "favourite_colour": "green"}]
+my_dicts = [{"name": "Tibi",
+             "favourite_colour": "blue",
+             "occupation": "DevOps Engineer"
+             },
+            {"name": "Gabor",
+             "favourite_colour": "green"}]
 for item in my_dicts:
     try:
         print(item["name"])
