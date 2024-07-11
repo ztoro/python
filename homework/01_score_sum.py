@@ -38,13 +38,9 @@ def add_result(name, score, result_list):
 
 def create_ranked_result(result_list):
     ranked_result = []
-    top_condition = True
-    while top_condition:
-        if result_list:
-            top_result = get_top_placement(result_list)
-            ranked_result.append(top_result)
-        else:
-            top_condition = False
+    while result_list:
+        top_result = get_top_placement(result_list)
+        ranked_result.append(top_result)
     return ranked_result
 
 
