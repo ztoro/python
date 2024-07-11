@@ -12,7 +12,7 @@ file.close()
 
 # ÍRÁS
 file = open("./output/output", "w")
-file.write("line 1: hello world!\n")  # newline karakterd teszünk a végére!
+file.write("line 1: hello world!\n")  # newline karaktert teszünk a végére!
 file.write("line 2: hello world again!")
 file.close()
 
