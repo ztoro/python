@@ -23,6 +23,8 @@ bool
 print("######STRING######")
 my_string = "hello world!"
 print(my_string)
+for letter in my_string:
+    print(letter)  # A string típus iterálható! Karaktertömb!
 
 print("######MUTABLE######")
 
