@@ -45,5 +45,3 @@ print(r.status_code)  # 201-es HTTP status code!
 print(r.json())
 
 # PUT, DELETE, stb. HTTP hívások az előzőekhez hasonlóan lehetségesek, lásd a fenti linken a dokumentációt
-
-
