@@ -7,6 +7,7 @@ def main():
     print("__name__ value: ", __name__)
     print("python main function")
     print(connections_module_2.PACKAGE_VERSION)
+    print(connections_module_2.MY_TEST_STRING)
     connections_module_2.get_data()
     connections_module_2.write_hello_world()
     try:

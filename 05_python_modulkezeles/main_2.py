@@ -7,7 +7,7 @@ def main():
     print("__name__ value: ", __name__)
     print("python main function")
     get_data()
-    # print_hello_world()  # ez hibát dobna, nincs ilyen függvényünk!
+    # write_hello_world()  # ez hibát dobna, nincs ilyen függvényünk!
 
 
 if __name__ == '__main__':

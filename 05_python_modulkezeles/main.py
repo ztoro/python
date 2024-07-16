@@ -10,7 +10,6 @@ def main():
     connections.write_hello_world()
 
 
-
 if __name__ == '__main__':
     main()
 # Csak akkor hajtódik végre a main, ha a main.py van futtatva direkt!
