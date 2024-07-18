@@ -8,5 +8,6 @@
 #
 # https://github.com/jithurjacob/Windows-10-Toast-Notifications
 # https://openweathermap.org/api/one-call-3
+# https://docs.python.org/3/library/time.html
 #
 # Bónusz feladat: ez a script legyen egy windows service!
