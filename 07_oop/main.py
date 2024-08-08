@@ -14,6 +14,10 @@ class Person:
         print(self.height)
         print(self.__created_time)
 
+    @staticmethod
+    def create_person(name, age):
+        return Person(name, age)
+
     def set_height(self, height):
         self.height = height
 
@@ -55,6 +59,10 @@ def main():
     print(person.get_age())
     print(person.height)
     employee = Employee("Gabor", 29, 500)
+    employee.print()
+    person = Person.create_person("Peter", 30)
+    person.print()
+    employee = create_employee()
     employee.print()
 
 
